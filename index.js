@@ -55,6 +55,7 @@ const typeDefs = gql`
 
     #participants
     participants: [Participant!]!
+    participant(id: ID!): Participant!
   }
 `;
 
@@ -79,6 +80,8 @@ const resolvers = {
 
     // participants
     participants: () => participants,
+    participant: (parent, args) =>
+      participants.find((participant) => participant.id == args.id),
   },
 
   //Custom Queries
