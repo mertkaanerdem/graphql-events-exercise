@@ -1,6 +1,10 @@
-### graphql-events-exercise
+### graphql events exercise
 
-> patika.dev graphql ödevi için oluşturduğum şema
+#### Installation
+
+clone this repo and type `npm install` in the terminal. after that type `npm run dev`. your server is ready at your localhost.
+
+> I made this schema for patika.dev's homework
 
 ```graphql
 type Event {
