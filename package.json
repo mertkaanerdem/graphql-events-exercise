@@ -1,0 +1,27 @@
+{
+  "name": "graphql-events-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertkaanerdem/graphql-events-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mertkaanerdem/graphql-events-exercise/issues"
+  },
+  "homepage": "https://github.com/mertkaanerdem/graphql-events-exercise#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "graphql": "^16.3.0"
+  }
+}
